@@ -7,7 +7,7 @@
 
 <br />
 <p align="center">
-  <h3 align="center">Use Prometheus and Grafana to monitor a Spring-Boot application</h3>
+  <h1 align="center">Use Prometheus and Grafana to monitor a Spring-Boot application</h1>
 </p>
 
 
@@ -33,7 +33,6 @@
 <br />
 
 ## About The Project
-
 
 ![Prometheus Monitoring](images/prometheus-scheduled-task-endpoint.PNG?raw=true)
 
