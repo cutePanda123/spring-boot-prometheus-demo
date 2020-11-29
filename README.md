@@ -74,13 +74,19 @@ The Spring-Boot application is a scheduled task that periodically sends data to 
   sudo systemctl enable prometheus
   ```
 
-* install Grafana
+* install and start Grafana
   ```sh
   echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
 
   sudo apt-get update
 
   sudo apt-get install grafana
+
+  sudo systemctl daemon-reload
+
+  sudo systemctl start grafana-server
+
+  sudo systemctl status grafana-server
 
 <br />
 
