@@ -35,8 +35,13 @@
 ## About The Project
 
 
+![Prometheus Monitoring](images/prometheus-scheduled-task-endpoint.PNG?raw=true)
+
+<br/>
+
 ![Grafana JVM Dashboard](images/grafana-jvm-dashboard.PNG?raw=true)
 
+<br />
 
 This simple demo project can be used as an example for setup Prometheus and Grafana to monitor a Spring-Boot application. 
 
@@ -91,8 +96,6 @@ The Spring-Boot application is a scheduled task which periotically sends data to
 <br />
 
 ![Spring-Boot Actuator Prometheus endpoint](images/actuator-endpoint.PNG?raw=true)
-
-![Prometheus Monitoring](images/prometheus-scheduled-task-endpoint.PNG?raw=true)
 
 ![Spring-Boot app output](images/scheduled-task-output.PNG?raw=true)
 
