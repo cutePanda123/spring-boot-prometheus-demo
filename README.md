@@ -42,9 +42,9 @@
 
 <br />
 
-This simple demo project can be used as an example for setup Prometheus and Grafana to monitor a Spring-Boot application. 
+This simple demo project can be used as an example of setup Prometheus and Grafana to monitor a Spring-Boot application. 
 
-The Spring-Boot application is a scheduled task which periotically sends data to console log and micrometer monitoring. And the Prometheus service keeps scrapes the data from the exposed actuator prometheus endpoint (http://localhost:8080/actuator/prometheus). Apart from these, the project also contains a demo Grafana dashboard which monitors the JVM information of the Spring-Boot application with JVM (Micrometer). 
+The Spring-Boot application is a scheduled task that periodically sends data to console log and micrometer monitoring. And the Prometheus service keeps scraping the data from the exposed actuator prometheus endpoint (http://localhost:8080/actuator/prometheus). Apart from these, the project also contains a demo Grafana dashboard that monitors the JVM information of the Spring-Boot application with JVM (Micrometer). 
 
 <br/>
 
