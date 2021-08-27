@@ -87,7 +87,7 @@ The Spring-Boot application is a scheduled task that periodically sends data to 
   sudo systemctl start grafana-server
 
   sudo systemctl status grafana-server
-
+  ```
 <br />
 
 
